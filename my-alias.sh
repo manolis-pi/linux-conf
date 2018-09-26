@@ -5,6 +5,19 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias p='more'
 alias cls='clear'
+
+# common schenario
+alias cd..='cd ..'
+
+# preserve /
+
+#more meaningful mountman col
+alias mount='mount |column -t'
+
+alias chown='chown --preserve-root'
+alias chmod='chmod --preserve-root'
+alias chgrp='chgrp --preserve-root'
+
 alias sudo='sudo ' #notice the extra space at the end
 
 if [ -x /usr/bin/dircolors ]; then
