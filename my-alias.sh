@@ -11,9 +11,6 @@ alias cd..='cd ..'
 
 # preserve /
 
-#more meaningful mountman col
-alias mount='mount |column -t'
-
 alias chown='chown --preserve-root'
 alias chmod='chmod --preserve-root'
 alias chgrp='chgrp --preserve-root'
